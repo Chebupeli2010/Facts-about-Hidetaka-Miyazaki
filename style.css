@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+}
+
+h1{
+    padding: 30px;
+    margin: 0;
+}
+
+text{
+    margin: 0;
+    padding-bottom: 30px;
+}
+
+header{
+    height: 250px; /* высота блока */
+    background-color: chocolate; /* цвет текста */
+    color: azure; /* цвет текста */
+    text-align: center ; /* выравания текста */
+    font-size: 30px ; /* размер текста */
+ padding: 10px;
+
+ background-image: url(https://cs10.pikabu.ru/post_img/big/2019/05/26/6/1558864584119263216.jpg);
+
+ text-shadow: 1px 5px 20px #ff0000;
+ font-family: "Сambria";
+
+}
+main {
+    height: 100%; /* высота блока */
+    background-color: crimson; /* цвет текста */
+    color: rgb(18, 31, 219) /* цвет текст */;
+    text-align: center; /* выравания текста */ 
+    font-size: 30px ; /* размер текста */ 
+    
+    background-image: url(https://s0.rbk.ru/v6_top_pics/media/img/0/20/756705749349200.webp);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+}
+
+.left{
+    width: 50% ;
+    font-size: 20px ;
+    text-align: justify ;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.548);
+    color: aliceblue;
+}
+
+.right{
+    width: 50% ;
+    text-align: center;
+}
+footer{
+    height: 600px; /* высота блока */
+    background-color: azure; /* цвет текста */
+    color: azure; /* цвет текста */
+    text-align: center; /* выравания текста */
+    font-size: 30px; /* размер текста */
+
+    background-image: url(https://cdn.shazoo.ru/315611_4eUGpknWuD_836d6c8c_14a9_4039_a4c5_a5cda655.jpg);
+    background-size: cover;
+    padding-top: 50px;
+}
+
+.social img{
+    width: 100px;
+    padding-left: 10px;
+}
+
+.social{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
